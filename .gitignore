@@ -1,0 +1,12 @@
+# Only public product materials belong in this repository.
+.DS_Store
+*.zip
+*.dmg
+*.app/
+*.db
+*.db-*
+*.sqlite*
+.env
+.env.*
+private/
+verification/
