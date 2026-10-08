@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="README.md">简体中文</a> ·
+  <a href="https://stedvor.com/en.html">Website</a> ·
   <a href="docs/quick-start.md">Quick start</a> ·
   <a href="#features-and-screenshots">Features and screenshots</a> ·
   <a href="#editions">Basic / Full</a> ·
