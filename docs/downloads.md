@@ -26,11 +26,11 @@ This repository provides only **free STEDVOR Basic**. This **pre-release preview
 
 ## 验证状态 / Validation status
 
-**PASS：**候选离线构建、裁剪与包检查，公开下载、文件大小、SHA-256 和 ZIP 完整性核验。
+**PASS**：候选离线构建、裁剪与包检查，公开下载、文件大小、SHA-256 和 ZIP 完整性核验。
 
 **PASS:** offline candidate build, trimming and package checks; public download, size, SHA-256 and ZIP integrity verification.
 
-**REJECTED（尚未完成）：**干净设备首装、Gatekeeper 首装、Basic 原生界面和真实 Testnet 验收。该包使用本地证书签名，**没有 Apple 公证**。Intel macOS、Windows、Linux 暂无已验证发行包。
+**REJECTED**（尚未完成）：干净设备首装、Gatekeeper 首装、Basic 原生界面和真实 Testnet 验收。该包使用本地证书签名，**没有 Apple 公证**。Intel macOS、Windows、Linux 暂无已验证发行包。
 
 **REJECTED (pending):** clean-device/Gatekeeper installation, native Basic UI and real Testnet acceptance. The package uses a local signing certificate and **has not been notarized by Apple**. There is no verified Intel macOS, Windows or Linux package.
 
