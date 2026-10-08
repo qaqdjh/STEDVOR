@@ -6,7 +6,7 @@
 
 <p align="center">A desktop quantitative workstation for market observation, research, Testnet execution and record review.</p>
 
-<p align="center"><strong>Product preview</strong> · macOS Apple Silicon candidate · Basic stays free · Public installer pending</p>
+<p align="center"><strong>Product preview</strong> · macOS Apple Silicon candidate · Basic stays free · Basic preview available</p>
 
 <p align="center">
   <a href="README.md">简体中文</a> ·
@@ -140,14 +140,14 @@ Full pricing, billing, payment, licence issuance and activation remain pending. 
 | Item | Current status |
 | --- | --- |
 | macOS Apple Silicon Basic candidate | A separate candidate has been generated and checked offline for build, trimming and packaging. |
-| Public Basic free-edition installer and download link | Not published; no working download link is available yet. |
+| Public Basic free-edition installer and download link | [0.1.0 preview](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1) published; the downloaded file has been checked. |
 | Full-edition download | Not provided by this repository. |
 | Clean-device installation, native Basic UI and real Testnet acceptance | Further validation remains. |
 | Intel macOS, Windows and Linux | No verified public release package. |
 
-Application downloads from this repository are limited to the **free Basic edition**. No Release or installer has been published. The [free-download notes](docs/downloads.md) record platform and release status. A future download link will point to a Basic release page with a specified version and checksum.
+Application downloads from this repository are limited to the **free Basic edition**. [Download Basic 0.1.0 preview](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1) for macOS Apple Silicon / arm64. The version-specific page provides the application ZIP, SHA-256 checksum and third-party notices; see the [free-download notes](docs/downloads.md) for installation and validation status. Apple notarization, clean-device installation, native UI and real Testnet acceptance remain pending.
 
-This repository presents the product and collects feedback. GitHub's **Code → Download ZIP** contains descriptions and screenshots, not an application installer. Cloning the repository does not install the application. Installation instructions will accompany a validated public Basic installer.
+This repository presents the product and collects feedback. GitHub's **Code → Download ZIP** contains descriptions and screenshots, not an application installer. Cloning the repository does not install the application. Download the STEDVOR-Basic ZIP from the Basic release page above and keep its companion notices.
 
 ## Feedback
 

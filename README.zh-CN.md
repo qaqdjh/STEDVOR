@@ -6,7 +6,7 @@
 
 <p align="center">从观察市场，到研究策略，再到 Testnet 执行与记录核对的桌面量化工作站。</p>
 
-<p align="center"><strong>产品预览</strong> · macOS Apple Silicon 候选 · Basic 长期免费 · 公开安装包准备中</p>
+<p align="center"><strong>产品预览</strong> · macOS Apple Silicon 候选 · Basic 长期免费 · Basic 预览包可下载</p>
 
 <p align="center">
   <a href="README.en.md">English</a> ·
@@ -140,14 +140,14 @@ Full 的价格、收费方式、付款、许可签发与激活尚待确定。完
 | 项目 | 当前状态 |
 | --- | --- |
 | macOS Apple Silicon Basic 候选 | 已生成独立候选包，并完成离线构建、裁剪和包检查。 |
-| Basic 免费版公开安装包与下载链接 | 尚未发布；当前没有可用下载链接。 |
+| Basic 免费版公开安装包与下载链接 | [0.1.0 预览版](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)已发布；下载文件已实测校验。 |
 | Full 完整版下载 | 本仓库不提供。 |
 | 干净设备首装、Basic 原生界面与真实 Testnet 验收 | 仍待完成相应验证。 |
 | Intel macOS、Windows、Linux | 暂无已验证的公开发行包。 |
 
-本仓库的应用下载范围仅限 **Basic 免费版**。当前没有已发布的 Release 或安装包；[免费下载说明](docs/downloads.md)记录平台与发布状态。正式下载链接将指向标明版本与校验值的 Basic 发布页面。
+本仓库的应用下载范围仅限 **Basic 免费版**。[下载 Basic 0.1.0 预览版](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)（macOS Apple Silicon / arm64）。安装 ZIP、SHA-256 校验文件与第三方许可证通知见该固定版本页面；[免费下载说明](docs/downloads.md)列明安装与验收状态。此包尚未获得 Apple 公证，干净设备首装、原生界面和真实 Testnet 验收仍待完成。
 
-这个仓库用于介绍产品与收集反馈。GitHub 的 **Code → Download ZIP** 下载的是介绍文字与截图，不是应用安装包；克隆本仓库也不会安装应用。正式安装说明将与验收后的 Basic 公开安装包一起提供。
+这个仓库用于介绍产品与收集反馈。GitHub 的 **Code → Download ZIP** 下载的是介绍文字与截图，不是应用安装包；克隆本仓库也不会安装应用。请在上述 Basic 发布页面下载命名为 STEDVOR-Basic 的 ZIP，并保留伴随通知。
 
 ## 产品反馈
 
