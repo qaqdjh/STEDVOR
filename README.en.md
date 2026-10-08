@@ -21,6 +21,14 @@ STEDVOR is for individuals and small teams who want to connect market observatio
 
 The desktop workspace keeps these steps together while showing data sources, coverage, strategy versions and execution environments, so you can understand where a result came from and which inputs are missing.
 
+## Software scope and funds
+
+STEDVOR is a market analysis and quantitative trading workstation for self-directed traders, including individuals and small teams. It provides market observation and scanning, unusual-activity monitoring, factor research, strategy backtesting, performance analysis, and user-configured and authorized manual and automated trading, subject to the actual support of each edition and trading product. Current connections cover crypto-asset markets. Stocks and other markets are planned for gradual expansion, with no available version or confirmed launch date.
+
+**Fees for paid software editions purchase a licence to use the software.** The developer does not receive users' trading capital or provide trading-fund deposits, custody, order matching or settlement services.
+
+Users manage their own exchange accounts, API permissions and operating decisions. For trading connections actually supported by an edition, the software submits orders through exchange APIs configured and authorized by the user. **If a supported live connection is used, orders execute in the user's own exchange account; the developer does not handle trading funds.** Basic execution is limited to supported Testnet products. See the [edition notes](docs/editions.md) for Full's features and release status.
+
 [![STEDVOR market scanner](assets/market-scanner.png)](assets/market-scanner.png)
 
 *An actual development-build interface. Click any screenshot to open the original. Prices and indicators are public market snapshots captured at that time.*

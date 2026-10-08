@@ -14,6 +14,20 @@ Free pricing and source-code permissions are separate. Basic being free does not
 
 免费定价与源码授权分别处理。Basic 免费不意味着授予开源许可；现有[版本范围](editions.md)及[Basic 预览说明](downloads.md)的限制仍适用。
 
+## Software scope and funds / 软件定位与资金边界
+
+STEDVOR is a market analysis and quantitative trading workstation for self-directed traders, including individuals and small teams. It provides market observation and scanning, unusual-activity monitoring, factor research, strategy backtesting, performance analysis, and user-configured and authorized manual and automated trading, subject to the actual support of each edition and trading product. Current connections cover crypto-asset markets. Stocks and other markets are planned for gradual expansion, with no available version or confirmed launch date.
+
+STEDVOR 是面向自主交易者的行情分析与量化交易工作台，适用于个人与小团队。提供行情观察与市场扫描、异动监控、因子研究、策略回测、收益分析，以及由用户配置并授权的人工与自动交易功能，受版本及交易产品的实际支持范围限制。当前接入加密资产市场；股票等市场计划逐步扩展，尚无可用版本或确定的上线时间。
+
+Fees for paid software editions purchase a licence to use the software. The developer does not receive users' trading capital or provide trading-fund deposits, custody, order matching or settlement services.
+
+付费软件版本的费用对应软件使用许可。开发者不接收用户交易本金，也不提供交易资金充值、托管、撮合或结算服务。
+
+Users manage their own exchange accounts, API permissions and operating decisions. For trading connections actually supported by an edition, the software submits orders through exchange APIs configured and authorized by the user. If a supported live connection is used, orders execute in the user's own exchange account; the developer does not handle trading funds. Basic execution is limited to supported Testnet products. See the [edition notes](editions.md) for Full's features and release status.
+
+用户自行管理交易所账户、API 权限和操作决策。对于版本实际支持的交易连接功能，软件通过用户自行配置并授权的交易所 API 提交订单。如使用获支持的实盘连接，订单在用户自己的交易所账户执行，开发者不经手交易资金。Basic 仅提供受支持的 Testnet 执行；Full 的功能与开放状态以[版本说明](editions.md)为准。
+
 ## Public repository and application / 公开仓库与应用
 
 This repository publishes product descriptions, screenshots, feedback materials and free Basic release downloads. It does not publish STEDVOR application source or a Full installer. GitHub-generated source archives contain only this presentation repository.
