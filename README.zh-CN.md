@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="README.en.md">English</a> ·
+  <a href="docs/quick-start.md">快速开始</a> ·
   <a href="#功能与截图">功能与截图</a> ·
   <a href="#版本范围">Basic / Full</a> ·
   <a href="#平台与下载">平台与下载</a> ·
@@ -25,6 +26,14 @@ STEDVOR 面向希望把行情观察、因子实验、策略研究和测试执行
 *实际开发版本的市场扫描界面。点击截图可查看原图。价格与指标是截图时的公开行情快照。*
 
 > **截图与版本说明：**以下截图来自当前开发版本，侧栏包含多个模块，不代表它们全部属于免费 Basic。Mainnet 公开行情、全局模式徽标和页面内的 Testnet 执行环境需要分别理解；截图不证明实盘账户访问、成交或收益。版本范围见 [Basic / Full 说明](docs/editions.md)。
+
+## 免费版快速开始
+
+1. 核对[系统要求](docs/system-requirements.md)：当前包为 Apple Silicon / arm64，随包运行时编译下限是 **macOS 26.0**。
+2. 从 [Basic 预览版发行页](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)下载安装包、校验文件与第三方通知，按[快速开始教程](docs/quick-start.md)核对和安装。
+3. 打开 **市场扫描**，选择 Testnet 公开行情、Binance、永续合约，点击 **刷新行情**。基础公开行情无需交易所或 AI Key，不会提交订单。
+
+Basic 适用[免费预览使用条款](docs/basic-preview-terms.md)。首次安装、原生界面和真实 Testnet 验收仍待完成；版本变化及限制见[发行记录](docs/release-notes.md)。
 
 ## 你可以用它做什么
 
@@ -139,6 +148,7 @@ Full 采用闭源商业许可，计划按月订阅，目前尚未开放订阅；
 
 | 项目 | 当前状态 |
 | --- | --- |
+| 当前包的 macOS 编译最低要求 | **26.0**，Apple Silicon / arm64；实际兼容性仍待验收，详见[系统要求](docs/system-requirements.md)。 |
 | macOS Apple Silicon Basic 候选 | 已生成独立候选包，并完成离线构建、裁剪和包检查。 |
 | Basic 免费版公开安装包与下载链接 | [0.1.0 预览版](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)已发布；下载文件已实测校验。 |
 | Full 完整版下载 | 本仓库不提供。 |
@@ -177,4 +187,4 @@ Full 采用闭源商业许可，计划按月订阅，目前尚未开放订阅；
 
 **Copyright © 2026 qaqdjh. All rights reserved.** 本仓库采用[保留全部权利的版权声明](LICENSE)，适用于权利人拥有的原创文案、截图和品牌素材；第三方内容的权利仍归各自权利人。除适用法律及 GitHub 服务条款允许的行为外，未授予额外的复制、修改、分发或商业使用许可。
 
-Basic 免费使用与软件开源是不同的授权范围。应用软件的使用条款将随正式免费版安装包另行提供；本声明不授予应用源码或 Full 完整版的使用、分发许可。
+Basic 免费使用与软件开源是不同的授权范围。[Basic 免费预览使用条款](docs/basic-preview-terms.md)已单独发布，当前冻结 ZIP 尚未内置该文档；仓库版权声明不授予应用源码或 Full 完整版的使用、分发许可。Full 正式商业协议将在开放订阅前另行公布。

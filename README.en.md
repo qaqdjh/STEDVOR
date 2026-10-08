@@ -10,6 +10,7 @@
 
 <p align="center">
   <a href="README.md">简体中文</a> ·
+  <a href="docs/quick-start.md">Quick start</a> ·
   <a href="#features-and-screenshots">Features and screenshots</a> ·
   <a href="#editions">Basic / Full</a> ·
   <a href="#platform-and-downloads">Platform and downloads</a> ·
@@ -25,6 +26,14 @@ The desktop workspace keeps these steps together while showing data sources, cov
 *An actual development-build interface. Click any screenshot to open the original. Prices and indicators are public market snapshots captured at that time.*
 
 > **Screenshots and editions:** These screenshots show the current development build, including modules outside free Basic. Mainnet public market data, the global mode badge and a page's Testnet execution environment have distinct meanings. Screenshots do not prove live account access, fills or returns. See the [edition scope](docs/editions.md).
+
+## Get started with free Basic
+
+1. Check the [system requirements](docs/system-requirements.md): Apple Silicon / arm64, with a bundled-runtime compile minimum of **macOS 26.0**.
+2. Download the ZIP, checksum and third-party notices from the [Basic preview release](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1), then follow the [quick-start guide](docs/quick-start.md) to check and install them.
+3. Open **Market Scanner**, select Testnet public markets, Binance and Perpetual Contract, then select **Refresh Market Data**. Basic public markets need no exchange or AI key and place no orders.
+
+Basic is covered by separate [free-preview use terms](docs/basic-preview-terms.md). First-install, native UI and real Testnet acceptance are pending. See the [release notes](docs/release-notes.md) for changes and limitations.
 
 ## What you can do
 
@@ -139,6 +148,7 @@ Full is planned as a closed-source commercial edition with monthly subscriptions
 
 | Item | Current status |
 | --- | --- |
+| Current package macOS compile minimum | **26.0**, Apple Silicon / arm64; runtime compatibility is still pending. See [system requirements](docs/system-requirements.md). |
 | macOS Apple Silicon Basic candidate | A separate candidate has been generated and checked offline for build, trimming and packaging. |
 | Public Basic free-edition installer and download link | [0.1.0 preview](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1) published; the downloaded file has been checked. |
 | Full-edition download | Not provided by this repository. |
@@ -177,4 +187,4 @@ It currently contains product descriptions, screenshots and feedback materials. 
 
 **Copyright © 2026 qaqdjh. All rights reserved.** The [all-rights-reserved copyright notice](LICENSE) covers original text, screenshots and brand assets to the extent owned by their rights holder. Third-party rights remain with their respective owners. Beyond applicable law and GitHub's Terms of Service, no additional permission to copy, modify, distribute or commercially use these materials is granted.
 
-Free Basic use and open-source licensing are separate. Application use terms will accompany the official free-edition installer. This notice grants no licence to application source code or to use or distribute the Full edition.
+Free Basic use and open-source licensing are separate. [Basic free-preview use terms](docs/basic-preview-terms.md) are published separately and are not included in the frozen ZIP. The repository notice grants no licence to application source or to use or distribute Full. Full commercial terms will be published before subscriptions open.

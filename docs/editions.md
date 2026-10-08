@@ -41,10 +41,14 @@ Full 采用闭源商业许可，计划按月订阅，目前尚未开放订阅；
 
 ## Platform and release status / 平台与发行状态
 
+Current package compile minimum: **macOS 26.0**, Apple Silicon / arm64. This follows the actual bundled runtimes and does not establish clean-device or native compatibility acceptance. See [system requirements](system-requirements.md), [quick start](quick-start.md) and [release notes](release-notes.md).
+
+当前包编译最低要求为 **macOS 26.0**，Apple Silicon / arm64；此要求来自实际随包运行时，不等于已完成首装或原生兼容性验收。详见[系统要求](system-requirements.md)、[快速开始](quick-start.md)及[发行记录](release-notes.md)。
+
 The separate local macOS Apple Silicon Basic candidate has passed offline build, trimming and packaging checks. The public preview download has been verified. Supported system versions, clean-device installation, native Basic UI and real Testnet acceptance remain pending. The package has not been notarized by Apple. Intel macOS, Windows and Linux have no verified release package. No release date is promised.
 
 独立本机 macOS Apple Silicon Basic 候选已通过离线构建、裁剪和包检查。公开预览包下载已验证；支持系统版本、干净设备首装、Basic 原生界面及真实 Testnet 验收仍待验证，包未获得 Apple 公证。Intel macOS、Windows 和 Linux 暂无已验证发行包，不承诺发布日期。
 
-This repository offers application downloads only for the free Basic edition. A [Basic 0.1.0 pre-release](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1) is published. Full downloads are not provided here. See the [free-download notes](downloads.md). Repository materials are covered by the [copyright notice](../LICENSE); application use terms will be provided separately with the official installer.
+This repository offers application downloads only for the free Basic edition. A [Basic 0.1.0 pre-release](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1) is published. Full downloads are not provided here. See the [free-download notes](downloads.md). Repository materials are covered by the [copyright notice](../LICENSE). The covered Basic preview has separate [free use terms](basic-preview-terms.md), not included in the frozen ZIP; Full commercial terms remain pending.
 
-本仓库的应用下载仅限 Basic 免费版，已发布 [Basic 0.1.0 预览版](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)，不提供 Full 完整版下载。详见[免费下载说明](downloads.md)。仓库展示材料适用[版权声明](../LICENSE)，应用使用条款将随正式安装包另行提供。
+本仓库的应用下载仅限 Basic 免费版，已发布 [Basic 0.1.0 预览版](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)，不提供 Full 完整版下载。详见[免费下载说明](downloads.md)。仓库展示材料适用[版权声明](../LICENSE)。所列 Basic 预览版适用单独发布的[免费使用条款](basic-preview-terms.md)，尚未内置到冻结 ZIP；Full 正式商业条款仍待公布。

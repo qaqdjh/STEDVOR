@@ -20,9 +20,9 @@ This repository publishes product descriptions, screenshots, feedback materials 
 
 本仓库公开产品介绍、截图、反馈材料及免费 Basic 发行下载，不发布 STEDVOR 应用源码或 Full 安装包。GitHub 自动生成的源码压缩包仅包含本展示仓库。
 
-The repository's [copyright notice](../LICENSE) covers original presentation materials to the extent owned by the rights holder. Application use requires separate edition-specific terms. This page does not create, replace or expand an application licence.
+The repository's [copyright notice](../LICENSE) covers original presentation materials to the extent owned by the rights holder. The covered Basic preview has separate [free application-use terms](basic-preview-terms.md), which are not included in the frozen ZIP. Full commercial terms remain pending. This policy page does not itself grant an application licence.
 
-仓库[版权声明](../LICENSE)仅覆盖权利人拥有的原创展示材料。应用使用条款按版本另行提供；本页不创设、替代或扩大应用许可。
+仓库[版权声明](../LICENSE)仅覆盖权利人拥有的原创展示材料。所列 Basic 预览版适用单独发布的[免费应用使用条款](basic-preview-terms.md)，该条款尚未内置到冻结 ZIP；Full 正式商业条款仍待公布。本政策页本身不授予应用许可。
 
 Third-party components keep their own licences and applicable rights. STEDVOR's commercial policy does not override those rights. Redistribution and any source-delivery obligations must be checked for the components actually included in each release; keep the companion third-party notices.
 

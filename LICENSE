@@ -15,9 +15,10 @@ exceptions under applicable law and GitHub's Terms of Service, including
 the platform's permitted viewing and forking, remain unaffected.
 
 STEDVOR application source code is not distributed in this repository.
-Application use terms, including terms for the free Basic edition, will be
-provided separately with an official installer. This notice grants no
-licence to use or distribute the application or the Full edition.
+Use of the covered free Basic preview is licensed separately under
+https://github.com/qaqdjh/STEDVOR/blob/main/docs/basic-preview-terms.md.
+Those terms are not included in the frozen preview ZIP. This presentation
+notice grants no application licence or rights to use or distribute Full.
 
 For additional permission, contact the repository owner via
 https://github.com/qaqdjh.
@@ -36,8 +37,9 @@ STEDVOR 产品展示仓库 — 版权声明
 修改、再分发或商业使用上述材料的许可。适用法律及 GitHub 服务
 条款允许的权利与例外，包括平台允许的查看与 Fork，不受影响。
 
-本仓库不分发 STEDVOR 应用源码。应用使用条款，包括免费 Basic 版
-的条款，将随正式安装包另行提供。本声明不授予应用或 Full 完整版
-的使用、分发许可。
+本仓库不分发 STEDVOR 应用源码。所列免费 Basic 预览版的应用使用
+权由 https://github.com/qaqdjh/STEDVOR/blob/main/docs/basic-preview-terms.md
+另行授予；该条款尚未内置到冻结预览 ZIP。本展示材料声明不授予
+应用许可，也不授予 Full 完整版的使用或分发权。
 
 如需额外授权，请通过 https://github.com/qaqdjh 联系仓库所有者。

@@ -4,13 +4,19 @@
 
 状态核对日期 / Status checked: **2026-10-08**
 
+[快速开始 / Quick start](quick-start.md) · [系统要求 / Requirements](system-requirements.md) · [使用条款 / Use terms](basic-preview-terms.md) · [发行记录 / Release notes](release-notes.md)
+
 ## 当前下载 / Current download
 
 **[下载 Basic 0.1.0 预览版 / Download Basic 0.1.0 preview](https://github.com/qaqdjh/STEDVOR/releases/tag/basic-v0.1.0-preview.1)**
 
 本仓库仅提供 **STEDVOR Basic 免费版**。本次是 **Pre-release 预览版**，适用于 macOS Apple Silicon（arm64）；不提供 Full 完整版安装包。
 
-This repository provides only **free STEDVOR Basic**. This **pre-release preview** supports macOS Apple Silicon (arm64). No Full-edition installer is provided here.
+This repository provides only **free STEDVOR Basic**. This **pre-release preview** is for macOS Apple Silicon (arm64). No Full-edition installer is provided here.
+
+**当前包编译最低要求：macOS 26.0，Apple Silicon / arm64。** 实际系统兼容性和首装仍待验收，详见[系统要求](system-requirements.md)。
+
+**Current package compile minimum: macOS 26.0, Apple Silicon / arm64.** Runtime compatibility and first installation remain pending; see [system requirements](system-requirements.md).
 
 | 文件 / File | 用途 / Purpose |
 | --- | --- |
@@ -48,6 +54,6 @@ GitHub 的 **Code → Download ZIP** 和自动生成的 Source code 压缩包只
 
 GitHub's **Code → Download ZIP** and generated Source code archives contain presentation materials, not the application. Development screenshots do not mean every module belongs to free Basic.
 
-Basic 长期免费，账户与交易流程限于受支持的 Testnet 产品；AI 与增强数据提供方的账号、Key、额度和费用另计。应用使用条款将随正式安装包提供；仓库材料的[版权声明](../LICENSE)与软件许可分别处理，第三方许可见伴随通知。
+Basic 长期免费，账户与交易流程限于受支持的 Testnet 产品；AI 与增强数据提供方的账号、Key、额度和费用另计。[Basic 免费预览使用条款](basic-preview-terms.md)已单独发布，尚未内置到冻结 ZIP；仓库材料的[版权声明](../LICENSE)与软件许可分别处理，第三方许可见伴随通知。
 
-Basic stays free long term; account and trading workflows are limited to supported Testnet products. AI and enhanced-data accounts, keys, quotas and fees are separate. Application use terms will accompany the official installer; the repository [copyright notice](../LICENSE) and software licensing are separate, and third-party licences are provided in the companion notices.
+Basic stays free long term; account and trading workflows are limited to supported Testnet products. AI and enhanced-data accounts, keys, quotas and fees are separate. [Basic free-preview use terms](basic-preview-terms.md) are published separately and are not included in the frozen ZIP. The repository [copyright notice](../LICENSE) and software licensing are separate; third-party licences are provided in the companion notices.
