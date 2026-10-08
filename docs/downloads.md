@@ -14,15 +14,19 @@ This repository provides only **free STEDVOR Basic**. This **pre-release preview
 
 | 文件 / File | 用途 / Purpose |
 | --- | --- |
-| [STEDVOR-Basic-0.1.0-macos-arm64-rebuild.zip](https://github.com/qaqdjh/STEDVOR/releases/download/basic-v0.1.0-preview.1/STEDVOR-Basic-0.1.0-macos-arm64-rebuild.zip) | Basic 应用 ZIP，27,131,128 bytes。 / Basic application ZIP. |
+| [STEDVOR-Basic-0.1.0-macos-arm64-clean.zip](https://github.com/qaqdjh/STEDVOR/releases/download/basic-v0.1.0-preview.1/STEDVOR-Basic-0.1.0-macos-arm64-clean.zip) | Basic 应用 ZIP，27,240,635 bytes。 / Basic application ZIP. |
 | [SHA256SUMS.txt](https://github.com/qaqdjh/STEDVOR/releases/download/basic-v0.1.0-preview.1/SHA256SUMS.txt) | 安装包校验值。 / Application checksum. |
 | [THIRD-PARTY-NOTICES.txt](https://github.com/qaqdjh/STEDVOR/releases/download/basic-v0.1.0-preview.1/THIRD-PARTY-NOTICES.txt) | 请与应用一并保存的第三方许可证和通知。 / Third-party licences and notices to keep with the application. |
 
 安装包 SHA-256 / ZIP SHA-256:
 
 ```text
-79ff6a6c7277568b07587474911284eda1d3dbdbc1ae0d5a5f5afb7674060620
+c3fc9d71761f6590fa1ffaeda9d16f95134b8a4b1a0a493bb3b8d008325c981d
 ```
+
+本次更新为发行清理候选：已清除本机私人路径和打包元数据，第三方许可已内置；保留上游通用构建配置。
+
+This revision removes developer-local paths and packaging metadata, and bundles third-party notices. Generic upstream build metadata is retained.
 
 ## 验证状态 / Validation status
 
