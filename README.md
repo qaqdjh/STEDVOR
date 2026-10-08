@@ -1,29 +1,171 @@
-# STEDVOR / Quant Workstation
+<p align="center">
+  <img src="assets/stedvor-lockup.svg" alt="STEDVOR" width="420">
+</p>
 
-![STEDVOR](assets/stedvor-lockup.svg)
+<h1 align="center">STEDVOR</h1>
 
-A desktop quantitative workstation for individuals and small teams, connecting market observation, research and backtesting, Testnet trading, and record review.
+<p align="center">从观察市场，到研究策略，再到 Testnet 执行与记录核对的桌面量化工作站。</p>
 
-**Preview · Public download pending**
+<p align="center"><strong>产品预览</strong> · macOS Apple Silicon 候选 · Basic 长期免费 · 公开安装包准备中</p>
 
-[简体中文](README.zh-CN.md) · [Editions](docs/editions.md) · [Screenshot context](docs/screenshots.md) · [Feedback](docs/feedback.md)
+<p align="center">
+  <a href="README.en.md">English</a> ·
+  <a href="#功能与截图">功能与截图</a> ·
+  <a href="#版本范围">Basic / Full</a> ·
+  <a href="#平台与下载">平台与下载</a> ·
+  <a href="docs/feedback.md">产品反馈</a>
+</p>
 
-![Actual market scanner interface](assets/market-scanner.png)
+STEDVOR 面向希望把行情观察、因子实验、策略研究和测试执行连起来的个人与小团队。你可以先从市场列表找出值得关注的品种，查看市场宽度与异动，再整理研究假设、比较历史结果，并在 Testnet 中练习执行、检查订单与交易记录。
 
-Public market data in an actual application view. The Mainnet mode badge does not establish account access, an order or a live trading result.
+它把这些流程放进同一个桌面工作区，同时显示数据来源、覆盖范围、策略版本和执行环境，帮助你理解当前看到的结果来自哪里、还有哪些数据缺口。
 
-## What the workflow brings together
+[![STEDVOR 市场扫描界面](assets/market-scanner.png)](assets/market-scanner.png)
 
-- **Find markets worth a closer look.** Combine filters, sort candidates, save presets and browse mini candlestick charts in one market list.
-- **Examine a research idea.** Compare historical returns, drawdown and trading costs. Factor statistics and factor return backtests support further investigation; general strategy backtests and parameter optimization belong to the planned Full scope.
-- **Practice execution and inspect records.** The confirmed Basic scope includes manual trading and automated bots on supported Testnet products, with orders, fills and Testnet performance records kept in context.
+*实际开发版本的市场扫描界面。点击截图可查看原图。价格与指标是截图时的公开行情快照。*
 
-Screenshots show actual software interfaces. The backtest screenshot shows a setup that has not been run; the AI screenshot has no generated answer or forecast result. Read the [screenshot notes](docs/screenshots.md) before interpreting a displayed value or environment badge.
+> **截图与版本说明：**以下截图来自当前开发版本，侧栏包含多个模块，不代表它们全部属于免费 Basic。Mainnet 公开行情、全局模式徽标和页面内的 Testnet 执行环境需要分别理解；截图不证明实盘账户访问、成交或收益。版本范围见 [Basic / Full 说明](docs/editions.md)。
 
-## Availability
+## 你可以用它做什么
 
-An existing local candidate has been built and used on macOS Apple Silicon. The separate Basic package, edition separation, final installer and installation on a clean device still need completion and verification. Intel macOS, Windows and Linux release packages remain unverified. No public download or purchase flow is available yet.
+| 你的任务 | STEDVOR 中的工作方式 |
+| --- | --- |
+| 从大量品种中找到观察对象 | 筛选和排序市场列表，查看迷你 K 线，保存筛选预设。 |
+| 判断市场整体状态 | 观察上涨与下跌品种分布、波动、资金费率及数据覆盖。 |
+| 跟踪市场异动 | 设置涨跌与波动阈值，查看触发条件与候选梯队。 |
+| 把想法变成可检查的研究 | 运行因子统计与收益回测；在 Full 的策略研究流程中管理版本和比较回测。 |
+| 练习交易与核对执行记录 | 在受支持的 Testnet 产品中进行人工或机器人执行，查看订单、成交、结算与对账记录。 |
 
-The [confirmed edition scope](docs/editions.md) keeps Basic free long term: nine pages, Testnet manual trading and bots, and factor statistics and factor return backtests. Full is planned as a paid edition; pricing, payment and licence arrangements are pending. AI and enhanced data may require your own third-party keys and paid provider quotas.
+## 功能与截图
 
-This repository is for product presentation and [requirements or experience discussions](docs/feedback.md). Historical results and AI estimates do not establish future returns or prediction accuracy.
+### 市场扫描：把候选品种放在同一张表里
+
+集中查看最新价、24h 涨跌、成交额、日内波动、资金费率、未平仓量和 RSI 等行情字段。你可以调整显示字段、筛选和排序，保存预设，通过迷你 K 线查看走势，再进入对应品种的图表。
+
+列表保留来源、更新时间与覆盖说明。缺失字段不会当作零值；CoinGecko 等增强来源按实际配置提供数据，基础扫描不要求先注册这些提供方。
+
+上方主图展示了这一列表。Mainnet 在这里可以表示公开行情来源，并不等于已连接真实资金账户。
+
+### 市场分析：从单个品种转向整体市场
+
+按交易所、市场类型、成交额范围与筛选条件组织观察集合，查看市场宽度、涨跌幅排名、平均波动、资金费率与衍生品数据覆盖。这样可以把一个品种的变化放回它所处的市场环境中。
+
+[![STEDVOR 市场分析界面](assets/market-analysis.png)](assets/market-analysis.png)
+
+*页面明确使用 Mainnet 公开行情。图中的“偏弱”等环境判断是规则化观察，不是交易指令，也不表示经过验证的预测准确率。完整市场分析属于计划中的 Full 范围。*
+
+### 异动监控：知道候选为什么出现在列表中
+
+设置涨跌幅与日内波动条件，把符合条件的品种组织为观察列表。每一行保留触发条件、行情指标与迷你走势，便于继续查看，而不是只给出一个无法解释的排名。
+
+[![STEDVOR 异动监控界面](assets/anomaly-monitor.png)](assets/anomaly-monitor.png)
+
+*截图显示候选梯队、触发条件和公开行情。条件命中用于市场观察，不会因截图中的命中状态自动启动机器人或产生订单。*
+
+### 因子实验室：检查研究想法是否有历史依据
+
+通过公式与模板组织因子，进行统计实验、结果比较和候选保存，并查看因子收益回测、成本、权益与回撤等研究结果。报告与导出让你可以保留一次实验的输入和结果，继续分析或与后续实验比较。
+
+因子统计与因子收益回测属于已确认的免费 Basic 范围。研究候选与可执行策略分别管理；保存一个研究候选不会自动授权交易。
+
+### 策略库：管理规则、参数和版本
+
+Full 的策略研究流程将策略配置、版本、归档恢复与回测入口放在一起。保存方案后，可以对指定版本进行回测，再查看历史收益、回撤和交易成本；参数优化按受支持的模板与条件运行。
+
+[![STEDVOR 策略库界面](assets/strategy-library.png)](assets/strategy-library.png)
+
+*图中是验收与 Demo 策略，展示配置和版本状态。仓位、杠杆、止盈止损是输入参数，不是实际持仓、收益或推荐设置；运行库与 Testnet 版本徽标也不证明机器人已启动。通用策略库、一键策略回测与参数优化属于计划付费范围。*
+
+当前一键策略回测面向受支持的 U 本位永续流程；参数优化有模板与输入条件限制，不承诺适用于任意市场或任意策略。Basic 会保留运行 Testnet 机器人所需的策略选择、参数、版本保存与显式启动控制。
+
+### Testnet：在测试环境中连接图表、执行与记录
+
+在 Testnet 工作区查看品种图表、指标、市场订单簿、持仓与订单记录，填写人工订单并检查执行环境。机器人需要明确配置、启用和启动；交易管理保留撤单、记录核对、结算与异常恢复等必要流程。
+
+[![STEDVOR Testnet 工作区](assets/testnet-workspace.png)](assets/testnet-workspace.png)
+
+*这张图的页内标识、交易记录区域与提交按钮明确属于 Testnet，持仓表为空，没有展示成交。全局顶栏仍显示 Mainnet 状态，不能据此把页内功能解释为 Mainnet 下单或实盘结果。*
+
+Testnet 人工交易与自动机器人属于已确认的免费 Basic 范围，限于实际支持的交易产品。必要凭据保护、风控、订单保护、对账、导出与恢复随免费流程提供。
+
+### 回测与 AI：辅助研究和解释
+
+策略回测帮助检查历史表现、回撤与成本；AI 可用于普通问答和研究辅助，按所选提供方配置用户自己的 Key 与额度。AI 输出与历史回测需要继续检验，不能当作未来收益或预测准确率的保证。
+
+<details>
+<summary>查看已有回测与 AI 界面</summary>
+
+[![STEDVOR 回测配置界面](assets/backtest-workspace.png)](assets/backtest-workspace.png)
+
+*这张已有截图展示尚未运行的回测配置。10,000 初始资金是研究参数，不是账户余额或盈利。通用策略回测属于 Full 范围，免费 Basic 包含因子收益回测。*
+
+[![STEDVOR AI 工作区](assets/ai-workspace.png)](assets/ai-workspace.png)
+
+*这张已有截图展示 AI 入口与配置，没有生成回答或预测结果，也没有测得的预测准确率。第三方提供方的额度与费用另计。*
+
+</details>
+
+所有截图的详细上下文见 [截图说明](docs/screenshots.md)。
+
+## 一条典型工作流程
+
+1. **观察：**用市场扫描和异动监控建立候选列表，检查数据来源、时效与缺失情况。
+2. **研究：**提出因子假设，做统计和因子收益回测；需要完整策略研究时进入 Full 对应流程。
+3. **比较：**固定输入、策略版本和成本假设，比较不同结果，保留报告。
+4. **测试：**在受支持的 Testnet 产品中配置人工或机器人执行，明确检查参数与环境后操作。
+5. **核对：**检查订单、成交、结算和对账记录，再决定下一轮研究如何调整。
+
+这是产品的工作方式说明。不同版本的页面范围和不同产品的支持情况需要分别确认。
+
+## 版本范围
+
+**Basic 长期免费，Full 计划收费。** 第三方 AI 与增强数据服务的账号、Key、额度和费用另计。
+
+| 能力 | Basic：已确认免费范围 | Full：计划付费范围 |
+| --- | --- | --- |
+| 工作台、市场扫描、异动监控 | 包含 | 包含并扩展完整市场分析流程 |
+| 因子统计与因子收益回测 | 包含 | 包含，并连接更完整的策略研究 |
+| Testnet 人工交易与机器人 | 受支持产品内包含 | 包含 |
+| 执行所需风控、订单保护、对账、导出与恢复 | 包含 | 包含 |
+| 完整市场图表、自选市场与市场分析 | 免费页面所需组件保留 | 完整页面属于 Full |
+| 研究中心、通用策略库、一键策略回测与参数优化 | 机器人执行所需的基本配置保留 | 完整研究流程属于 Full |
+| Mainnet 账户访问、人工与自动交易 | 不包含 | 计划提供，受产品支持与授权约束 |
+
+Basic 的九个页面为：**工作台、收益分析、AI、市场扫描、异动监控、因子实验室、Testnet、交易管理、设置**。账户、交易、机器人和收益上下文限于 Testnet；公开市场行情另外处理。
+
+Full 的价格、收费方式、付款、许可签发与激活尚待确定。完整范围见 [版本说明](docs/editions.md)。
+
+## 平台与下载
+
+| 项目 | 当前状态 |
+| --- | --- |
+| macOS Apple Silicon Basic 候选 | 已生成独立候选包，并完成离线构建、裁剪和包检查。 |
+| 公开安装包与下载链接 | 准备中，尚未提供。 |
+| 干净设备首装、Basic 原生界面与真实 Testnet 验收 | 仍待完成相应验证。 |
+| Intel macOS、Windows、Linux | 暂无已验证的公开发行包。 |
+
+这个仓库用于介绍产品与收集反馈。当前不能通过克隆本仓库来安装应用；正式安装说明将与验收后的公开安装包一起提供。
+
+## 产品反馈
+
+欢迎通过本仓库的 **Issues** 讨论希望完成的任务、需要改进的流程，以及截图中不清楚的部分。可使用 [产品反馈模板](.github/ISSUE_TEMPLATE/product_feedback.md)，并参考 [反馈说明](docs/feedback.md)。
+
+提交反馈时，请描述页面、操作步骤和预期结果；不要附上密钥、账户标识、交易数据库或私有报告。
+
+## 常见问题
+
+### 能直接用这些截图里的参数交易吗？
+
+截图中的参数仅用于展示界面，部分策略明确是验收或 Demo。它们不构成推荐设置；历史表现与模型估计也不证明未来收益。
+
+### 为什么免费版能看到 Mainnet 行情？
+
+公开市场行情与私人账户访问是不同的能力。Basic 的账户、交易、机器人与收益上下文限于 Testnet，使用公开行情不会开放 Mainnet 账户交易。
+
+### 是否需要为所有数据先配置 Key？
+
+基础扫描不要求配置 CoinGecko 或 CoinGlass Key。AI、增强数据和外部服务按实际提供方要求配置，额度和费用由提供方决定。
+
+### 这个仓库包含软件源码吗？
+
+当前仓库提供产品介绍、截图与反馈材料，未提供应用源码。展示材料的许可方案尚未确定，应用软件许可将另行说明。

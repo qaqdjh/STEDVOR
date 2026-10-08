@@ -1,6 +1,6 @@
 # Product feedback / 产品反馈
 
-[English overview](../README.md) · [中文介绍](../README.zh-CN.md)
+[English overview](../README.en.md) · [中文介绍](../README.md)
 
 Use this repository's Issues for product requirements and experience discussions. The public package has not been released, so a version number is not required for preview feedback. An issue does not create an order, support contract or delivery commitment.
 
@@ -16,6 +16,6 @@ If discussing a privately supplied candidate, you can also describe the observed
 
 如果讨论私下获得的候选，可以补充实际步骤与可见错误；知道版本或构建标识时再填写。
 
-Issues are public. Keep API keys, credentials, account identifiers, trading databases and private reports out of posts and screenshots. Do not attach private installation bundles or logs containing personal information.
+Once the repository is public, its Issues are public too. Keep API keys, credentials, account identifiers, trading databases and private reports out of posts and screenshots. Do not attach private installation bundles or logs containing personal information.
 
-Issues 公开可见。请勿在文字或截图中包含 API Key、凭据、账户标识、交易数据库和私有报告，也不要附上私有安装包或含个人信息的日志。
+仓库公开后，Issues 也公开可见。请勿在文字或截图中包含 API Key、凭据、账户标识、交易数据库和私有报告，也不要附上私有安装包或含个人信息的日志。
