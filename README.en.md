@@ -140,11 +140,14 @@ Full pricing, billing, payment, licence issuance and activation remain pending. 
 | Item | Current status |
 | --- | --- |
 | macOS Apple Silicon Basic candidate | A separate candidate has been generated and checked offline for build, trimming and packaging. |
-| Public installer and download link | In preparation; not available yet. |
+| Public Basic free-edition installer and download link | Not published; no working download link is available yet. |
+| Full-edition download | Not provided by this repository. |
 | Clean-device installation, native Basic UI and real Testnet acceptance | Further validation remains. |
 | Intel macOS, Windows and Linux | No verified public release package. |
 
-This repository presents the product and collects feedback. Cloning it does not install the application. Installation instructions will accompany a validated public installer.
+Application downloads from this repository are limited to the **free Basic edition**. No Release or installer has been published. The [free-download notes](docs/downloads.md) record platform and release status. A future download link will point to a Basic release page with a specified version and checksum.
+
+This repository presents the product and collects feedback. GitHub's **Code → Download ZIP** contains descriptions and screenshots, not an application installer. Cloning the repository does not install the application. Installation instructions will accompany a validated public Basic installer.
 
 ## Feedback
 
@@ -168,4 +171,10 @@ Basic scanning does not require CoinGecko or CoinGlass keys. AI, enhanced data a
 
 ### Does this repository contain application source code?
 
-It currently contains product descriptions, screenshots and feedback materials. Application source code is not provided here. A licence for the presentation materials has not been selected; application licensing will be addressed separately.
+It currently contains product descriptions, screenshots and feedback materials. Application source code is not provided here.
+
+### Does a public repository mean the software is open source or materials may be freely reused?
+
+**Copyright © 2026 qaqdjh. All rights reserved.** The [all-rights-reserved copyright notice](LICENSE) covers original text, screenshots and brand assets to the extent owned by their rights holder. Third-party rights remain with their respective owners. Beyond applicable law and GitHub's Terms of Service, no additional permission to copy, modify, distribute or commercially use these materials is granted.
+
+Free Basic use and open-source licensing are separate. Application use terms will accompany the official free-edition installer. This notice grants no licence to application source code or to use or distribute the Full edition.

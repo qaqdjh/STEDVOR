@@ -44,3 +44,7 @@ Full 的价格、收费模式、付款、许可签发与激活仍待确定。付
 The separate local macOS Apple Silicon Basic candidate has passed offline build, trimming and packaging checks. The public installer, supported system versions, clean-device installation, native Basic UI and real Testnet acceptance remain pending. Intel macOS, Windows and Linux have no verified release package. No release date is promised.
 
 独立本机 macOS Apple Silicon Basic 候选已通过离线构建、裁剪和包检查。公开安装载体、支持系统版本、干净设备首装、Basic 原生界面及真实 Testnet 验收仍待验证。Intel macOS、Windows 和 Linux 暂无已验证发行包，不承诺发布日期。
+
+This repository will offer application downloads only for the free Basic edition. No installer or Release is currently published. Full downloads are not provided here. See the [free-download notes](downloads.md). Repository materials are covered by the [copyright notice](../LICENSE); application use terms will be provided separately with the official installer.
+
+本仓库的应用下载仅限 Basic 免费版，目前没有已发布安装包或 Release，不提供 Full 完整版下载。详见[免费下载说明](downloads.md)。仓库展示材料适用[版权声明](../LICENSE)，应用使用条款将随正式安装包另行提供。
