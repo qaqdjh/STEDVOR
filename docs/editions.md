@@ -35,9 +35,9 @@ Testnet 机器人需要选择策略、配置参数、保存版本，并明确启
 - Research centre, general strategy library, one-click strategy backtests and parameter optimization. / 研究中心、通用策略库、策略一键回测与参数优化。
 - General backtest analysis, strategy diagnostics, independent strategy runs, review centre and other user features outside Basic. / 通用回测分析、策略诊断、独立策略运行、复盘中心及未纳入 Basic 的其他用户功能。
 
-Full pricing, billing model, payment, licence issuance and activation remain pending. Payment does not establish support for an otherwise unsupported or unverified product. AI providers, enhanced data and external notifications may require separate accounts, keys, quotas and fees.
+Full is planned as a closed-source commercial edition with monthly subscriptions. Subscriptions are not open; official pricing, payment, licence issuance and activation arrangements will be stated before launch. Payment does not establish support for an otherwise unsupported or unverified product. AI providers, enhanced data and external notifications may require separate accounts, keys, quotas and fees. See the [licensing and source policy](licensing.md).
 
-Full 的价格、收费模式、付款、许可签发与激活仍待确定。付费不代表原本不支持或未验证的产品已可使用。AI 提供方、增强数据及外部通知可能需要独立账户、Key、额度与费用。
+Full 采用闭源商业许可，计划按月订阅，目前尚未开放订阅；正式价格、付款、许可签发与激活安排以开放前公布的条款为准。付费不代表原本不支持或未验证的产品已可使用。AI 提供方、增强数据及外部通知可能需要独立账户、Key、额度与费用。详见[许可与源码政策](licensing.md)。
 
 ## Platform and release status / 平台与发行状态
 

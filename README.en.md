@@ -133,7 +133,7 @@ This describes the product workflow. Edition entitlements and support for each t
 
 Basic has nine pages: **Dashboard, Performance, AI, Market scanner, Market monitor, Factor lab, Testnet, Trade management and Settings**. Account, trading, bot and performance contexts are limited to Testnet; public market data is handled separately.
 
-Full pricing, billing, payment, licence issuance and activation remain pending. See the [edition details](docs/editions.md).
+Full is planned as a closed-source commercial edition with monthly subscriptions. Subscriptions are not open; official pricing, payment, licence issuance and activation arrangements will be stated before launch. See the [edition details](docs/editions.md) and [licensing and source policy](docs/licensing.md).
 
 ## Platform and downloads
 
@@ -171,7 +171,7 @@ Basic scanning does not require CoinGecko or CoinGlass keys. AI, enhanced data a
 
 ### Does this repository contain application source code?
 
-It currently contains product descriptions, screenshots and feedback materials. Application source code is not provided here.
+It currently contains product descriptions, screenshots and feedback materials. Application source code is not provided here. Full application source remains private; scoped source review or independent auditing is optional. See the [licensing and source policy](docs/licensing.md).
 
 ### Does a public repository mean the software is open source or materials may be freely reused?
 
