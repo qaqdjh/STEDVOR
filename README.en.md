@@ -172,7 +172,7 @@ This repository presents the product and collects feedback. GitHub's **Code → 
 
 Use this repository's **Issues** to discuss tasks, workflow improvements and unclear parts of the screenshots. Start with the [product feedback template](.github/ISSUE_TEMPLATE/product_feedback.md) and [feedback notes](docs/feedback.md).
 
-Official contact: [stedvor.support@gmail.com](mailto:stedvor.support@gmail.com).
+Official contact: [stedvor.support@gmail.com](mailto:stedvor.support@gmail.com). WeChat ID: `stedvor`.
 
 Describe the page, steps and expected outcome. Do not attach keys, account identifiers, trading databases or private reports.
 
