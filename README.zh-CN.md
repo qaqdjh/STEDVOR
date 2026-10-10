@@ -172,6 +172,8 @@ Full 采用闭源商业许可，计划按月订阅，目前尚未开放订阅；
 
 欢迎通过本仓库的 **Issues** 讨论希望完成的任务、需要改进的流程，以及截图中不清楚的部分。可使用 [产品反馈模板](.github/ISSUE_TEMPLATE/product_feedback.md)，并参考 [反馈说明](docs/feedback.md)。
 
+官方联系邮箱：[stedvor.support@gmail.com](mailto:stedvor.support@gmail.com)。
+
 提交反馈时，请描述页面、操作步骤和预期结果；不要附上密钥、账户标识、交易数据库或私有报告。
 
 ## 常见问题
