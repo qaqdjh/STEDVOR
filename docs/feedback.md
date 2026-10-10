@@ -2,6 +2,10 @@
 
 [English overview](../README.en.md) · [中文介绍](../README.md)
 
+Official contact: [stedvor.support@gmail.com](mailto:stedvor.support@gmail.com).
+
+官方联系邮箱：[stedvor.support@gmail.com](mailto:stedvor.support@gmail.com)。
+
 Use this repository's Issues for product requirements and experience discussions. The public package has not been released, so a version number is not required for preview feedback. An issue does not create an order, support contract or delivery commitment.
 
 本仓库的 Issues 用于产品需求与体验讨论。公开安装包尚未发布，预览反馈无需填写版本号。提交 Issue 不产生订单、支持合同或交付承诺。
