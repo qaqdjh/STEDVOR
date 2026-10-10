@@ -2,9 +2,9 @@
 
 [English overview](../README.en.md) · [中文介绍](../README.md)
 
-Official contact: [stedvor.support@gmail.com](mailto:stedvor.support@gmail.com).
+Official contact: [stedvor.support@gmail.com](mailto:stedvor.support@gmail.com). WeChat ID: `stedvor`.
 
-官方联系邮箱：[stedvor.support@gmail.com](mailto:stedvor.support@gmail.com)。
+官方联系邮箱：[stedvor.support@gmail.com](mailto:stedvor.support@gmail.com)。 微信号：`stedvor`。
 
 Use this repository's Issues for product requirements and experience discussions. The public package has not been released, so a version number is not required for preview feedback. An issue does not create an order, support contract or delivery commitment.
 
